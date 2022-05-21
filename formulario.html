@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+  <title>Meu diário</title>
+</head>
+
+<body>
+  <div>
+     <h1 id="titulo">Meu Diário</h1>
+     <p id="subtitulo">Escreva suas informações no seu diário digital!<p>
+      <br>
+  </div>
+
+  <form>
+   
+     <fieldset class="grupo">
+         <div class="campo">
+             <label for="nome"><strong>Nome</strong></label>
+             <input type="text" name="nome" id="nome" required>
+           </divv
+
+           <div class="campo" >
+                <label for="apelido"><strong>Apelido</strong></label>
+                <input type="text" name="apelido" id="apelido" required>
+           </div>>     </fieldset>
+       
+      <div class="campo">
+                <label for="Meu Sonho"><strong>Meu Sonho</strong></label>
+                 <input type="text" name="meu sonho" id="meu sonho" required>
+      </div>
+
+      <div class="campo">
+         <label><strong>Como foi seu dia?</strong></label>
+          <label>
+              <input type="radio" name="dia" value="muito bom" checked>Muito bom    
+         </label>
+          <label>
+              <input type="radio" name="dia" value="bom" checked>Bom
+          </label>
+           <label>
+               <input type="radio" name="dia" value="ruim" checked>Ruim
+          </label>          
+      </div>
+      
+      <div class="campo">
+         <label for="gosta"><strong>Fez algo que você gosta?</strong></label>
+          <select id="gosta" required>
+            <option>Sim😀</option>
+            <option>Não🙁</option>
+          </select>
+      </div>
+      <fieldset class="grupo">
+          <div id="check">      
+             <label><strong>Selecione coisas que você gosta de fazer</strong></label><br><br>
+             <input type="checkbox" id="fazer1" name="fazer1" value="Ler">
+             <label for="fazer1">Ler</label>
+              <input type="checkbox" id="fazer2" name="fazer2" value="Desenhar">
+            <label for="fazer2">Desenhar</label>
+            <input type="checkbox" id="fazer3" name="fazer3" value="Passear">
+            <label for="fazer3">Passear</label>
+            <input type="checkbox" id="fazer4" name="fazer4" value="Catar">
+            <label for="fazer4">Cantar</label>
+            <input type="checkbox" id="fazer5" name="fazer5" value="Ver filmes/séries">
+            <label for="fazer2">Ver filmes/séries</label>   
+         </div>
+      </fieldset>
+    
+      <div class="campo">
+           <br>
+            <label for="fale"><strong>Agora, fique a vontade e fale 
+mais sobre a sua vida!</strong></label>
+            <textarea rows="6" style="width: 26em" id="fale" name="fale"></textarea>
+       </div>
+              
+        <button class="botao" type="submit">Concluído</button>
+       
+     </form>
+
+  </body>
+
+</html>
