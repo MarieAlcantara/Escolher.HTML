@@ -1,4 +1,4 @@
-<link href="formulario.html" rel="stylesheet" type="text/css" />
+   <link href="formulario.html" rel="stylesheet" type="text/css" />
 * {
     margin: 1;
     padding: 1;
@@ -27,7 +27,7 @@ fieldset {
 body{
     background-color: #BDEOFE
     font-family: arial;
-    font-size: 1px;
+    font-size: 1em;
     color: #A2D2FF
     border-radius: 4px;
     margin-left: 40%;
@@ -36,7 +36,7 @@ body{
 
 input, select, textarea, button{
     font-family: arial;
-    font-size: 1px;
+    font-size: 1em;
     color: #A2D2FF
     border-radius: 4px;
 }
@@ -50,29 +50,29 @@ input, select, textarea, button{
 }
 
 .campo {
-    margin-bottom: 1px;
+    margin-bottom: 1em;
 }
 
 .campo label {
-    margin-bottom: 0.5px;
+    margin-bottom: 0.1em;
     color: #A2D2FF;
     display: block;   
 }
 
 fieldset. grupo .campo {
     float: left;
-     margin-right: 0.5px;
+     margin-right: 0.1em;
 }
 
 .campo input[type="text"], .campo select, .campo textarea {
-    padding: 0.5px;
+    padding: 0.1em;
     border: 1px solid #A2D2FF;
     box-shadow: 1px 1px 1px;
     display: block;
 }
 
 .campo select option {
-    padding-right: 0.5px;
+    padding-right: 0.5em;
 }
 
 .campo input: focus, .campo select: focus, .campo textarea: focus {
@@ -80,7 +80,7 @@ fieldset. grupo .campo {
 }
 
 .botao {
-    font-size: 0.5px;
+    font-size: 0.5em;
     background: #A2D2FF;
     border: 0;
     margin-bottom: 0.5px
