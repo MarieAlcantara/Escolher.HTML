@@ -1,0 +1,10 @@
+<link href="formulario.html" rel="stylesheet" type="text/css" />
+* {
+    margin: 1;
+    padding: 1;
+}
+
+#titulo{
+    font-family: cursive;
+    color: #FFAFCC
+}
