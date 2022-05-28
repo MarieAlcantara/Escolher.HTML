@@ -1,16 +1,17 @@
+  <link href="style.css" rel="stylesheet" type="text/css" />
    <link href="formulario.html" rel="stylesheet" type="text/css" />
 * {
-    margin: ;
+    margin: 0;
     padding: 0;
 }
 
-#titulo{
+#titulo {
     font-family: cursive;
     color: #CDB4DB;
     margin-left: 6%;
 }
 
-#subtitulo{
+#subtitulo {
      font-family: cursive;
      color: #FFAFCC;
      margin-left: 10% ;
@@ -34,7 +35,7 @@ body{
     justify-content: center;
 }
 
-input, select, textarea, button{
+input, select, textarea, button {
     font-family: arial;
     font-size: 1em;
     color: #A2D2FF;
@@ -61,7 +62,7 @@ input, select, textarea, button{
 
 fieldset. grupo .campo {
     float: left;
-     margin-right: 0.1em;
+     margin-right: 1em;
 }
 
 .campo input[type="text"], .campo select, .campo textarea {
@@ -75,7 +76,7 @@ fieldset. grupo .campo {
     padding-right: 1em;
 }
 
-.campo input: focus, .campo select: focus, .campo textarea: focus {
+.campo input:focus, .campo select:focus, .campo textarea:focus {
     background: #FFC8DD;
 }
 
@@ -83,9 +84,10 @@ fieldset. grupo .campo {
     font-size: 1em;
     background: #A2D2FF;
     border: 0;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
     color: #CDB4DB;
-    box-shadow: 1.5px 1.5px 1.5px rgba(0,0,0,0.5);
+    padding: 0.2em 0.6em;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     position: absolute;
     top: 85%;
@@ -96,8 +98,8 @@ fieldset. grupo .campo {
 
 .botao:hover {
    background: #FFAFCC;
-   box-shadow: inset 1px 1px 1px rgba(0,0,0,0.5);
-   text-shadow: none
+   box-shadow: inset 1px 1px 1px rgba(0,0,0,0.2);
+   text-shadow: none;
 }
 
 .botao, select { 
