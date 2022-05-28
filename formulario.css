@@ -102,15 +102,4 @@ fieldset. grupo .campo {
 
 .botao, select { 
     cursor: pointer;
-}e(-50%, -50%)
-}
-
-.botao:hover {
-   background: #FFAFCC;
-   box-shadow: inset 1px 1px 1px rgba(0,0,0,0.5);
-   text-shadow: none;
-}
-
-.botao, select { 
-    cursor: pointer;
 }      
